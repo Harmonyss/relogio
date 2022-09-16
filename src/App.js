@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './componentes/Codigo/Codigo.js'
+import './componentes/Codigo/Codigo.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+    <body>
+            <div className="relogio">
+                <div>
+                    <span id="horas">00</span>
+                    <span id="tempo">Horas</span>
+                </div>
+                <div>
+                    <span id="minutos">00</span>
+                    <span id="tempo">Minutos</span>
+                </div>
+                <div>
+                    <span id="segundos">00</span>
+                    <span id="tempo">Segundos</span>
+                </div>
+
+            </div>
+        
+        </body>
+    )
+    
 }
 
 export default App;
